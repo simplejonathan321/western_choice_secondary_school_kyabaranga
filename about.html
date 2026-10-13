@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Western Choice Secondary School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="loader-wrapper">
+    <div class="loader"></div>
+</div>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Western Choice</span> Secondary School</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section class="hero-section">
+    <div class="hero-image-container">
+        <img src="mabaleimages/teachers.jpg" alt="Western Choice Secondary School Teachers" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>The Rise of Mr. Kassim Hassan</h2>
+            <p class="hero-text">At the helm of operations is Mr. Kassim Hassan, a determined and visionary leader who has taken on the mantle of General Director. A new savior in challenging times, Kassim Hassan was no stranger to the education sector.</p>
+        </div>
+    </div>
+</section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Our School</h1>
+                
+                <section class="about-section">
+                    <h2>Our History</h2>
+                    <p>Founded in 2014, Western Choice Secondary School has been providing quality 
+                        education to students in the region for over 11 years.
+                         What began as a small private school has grown into a leading educational
+                          institution recognized for academic excellence and character development.</p>
+                </section>
+                
+                <section class="about-section">
+                    <h2>Mission & Vision</h2>
+                    <h3>Our Mission</h3>
+                    <p>To empower students with knowledge, skills, and values necessary for academic achievement and responsible citizenship through a challenging and supportive learning environment.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To be a premier learning institution that develops innovative thinkers and ethical leaders who will make a positive impact in their communities and the world.</p>
+                </section>
+
+<section class="anthem-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our School Anthem</h2>
+            <div class="divider"></div>
+            <p class="subtitle">The Voice of Western Choice</p>
+        </div>
+
+        <div class="anthem-container">
+            <div class="anthem-content">
+                <div class="anthem-text">
+                    <h3>Western Choice, Our Pride</h3>
+                    <p>Western Choice, our noble school,<br>
+                    Where knowledge shines and wisdom rules.<br>
+                    With hearts united, strong and true,<br>
+                    We pledge our loyalty to you.</p>
+                    
+                    <p>Through halls of learning, voices rise,<br>
+                    Reaching upward to the skies.<br>
+                    Excellence our constant aim,<br>
+                    Western Choice, we praise your name!</p>
+                </div>
+                
+                <div class="anthem-media">
+                    <div class="audio-container">
+                        <div class="audio-player" onclick="togglePlay()">
+                            <div class="play-pause-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="audio-info">
+                                <div class="audio-title">Western Choice Anthem</div>
+                                <div class="audio-progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="audio-time">
+                                    <span class="current-time">0:00</span> / 
+                                    <span class="duration">2:45</span>
+                                </div>
+                            </div>
+                        </div>
+                        <audio id="anthem-audio" src="audio/anthem.mp3"></audio>
+                    </div>
+                    
+                    <button class="download-btn" onclick="downloadAnthem()">
+                        <i class="fas fa-download"></i> Download Anthem
+                    </button>
+                </div>
+            </div>
+            
+            <div class="anthem-symbols">
+                <div class="symbol-card">
+                    <div class="symbol-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h4>Composed in 2015</h4>
+                    <p>By the Music Department</p>
+                </div>
+                
+                <div class="symbol-card">
+                    <div class="symbol-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Performed Weekly</h4>
+                    <p>Every Monday Assembly</p>
+                </div>
+                
+                <div class="symbol-card">
+                    <div class="symbol-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>Award Winning</h4>
+                    <p>Best School Anthem 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                
+
+                
+                <section class="about-section">
+                    <h2>Our Campus</h2>
+                    <div class="campus-grid">
+                        <div class="campus-item">
+                            <img src="mabaleimages/build2.jpg" alt="School Library">
+                            <h4>Modern Library</h4>
+                        </div>
+                        <div class="campus-item">
+                            <img src="mabaleimages/build2.jpg" alt="Science Lab">
+                            <h4>Science Laboratories</h4>
+                        </div>
+                        <div class="campus-item">
+                            <img src="mabaleimages/game2.jpg" alt="Sports Field">
+                            <h4>Athletic Facilities</h4>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="about-section">
+                    <h2>Our Faculty</h2>
+                    <p>Our dedicated team of educators includes highly qualified teachers with an average of 15 years of teaching experience. 85% hold advanced degrees in their subject areas, and all participate in ongoing professional development.</p>
+                </section>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>School Achievements</h3>
+                    <ul class="achievements">
+                        <li>Ranked #1 in county for STEM education</li>
+                        <li>98% graduation rate</li>
+                        <li>85% of graduates attend 4-year colleges</li>
+                        <li>National Blue Ribbon School (2019)</li>
+                        <li>State champions in debate (2020, 2022)</li>
+                    </ul>
+                </div>
+                
+                <div class="dark">
+                    <h3>Fast Facts</h3>
+                    <ul class="facts">
+                        <li><strong>Founded:</strong> 1985</li>
+                        <li><strong>Students:</strong> 1,200</li>
+                        <li><strong>Faculty:</strong> 85</li>
+                        <li><strong>Student-Teacher Ratio:</strong> 14:1</li>
+                        <li><strong>AP Courses Offered:</strong> 18</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+    <div class="container">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Academics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Calendar</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 School Road, Education City, State 12345</p>
+            <p><i class="fas fa-phone"></i> Main Office: (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> Email: info@westernchoice.edu</p>
+            <p><i class="fas fa-clock"></i> Office Hours: Mon-Fri 7:00 AM - 5:00 PM</p>
+        </div>
+        <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="newsletter-form">
+                <h4>School Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Western Choice Secondary School. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
